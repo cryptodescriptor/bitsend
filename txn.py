@@ -40,16 +40,10 @@ class tx(object):
     return { 
       "nVersion": self.p("I", 1), 
       "txin": {
-        "count":"",
-        "hash":[],
-        "index":[],
-        "scriptSig":[],
-        "sequence":[]
+        "count":"", "hash":[], "index":[], "scriptSig":[], "sequence":[]
       }, 
       "txout": {
-        "count":"",
-        "amount":[],
-        "pks":[]
+        "count":"", "amount":[], "pks":[]
       },
       "nLocktime": "00000000"
     }
